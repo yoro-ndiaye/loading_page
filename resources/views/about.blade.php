@@ -21,8 +21,8 @@
         <div class="menu">
           <div class="link">
             <ul>
-                <li><a href="{{route('dashboard')}}">Products</a></li>
-                <li><a href="{{route('blog')}}">Services</a></li>
+                <li><a href="{{route('dashboard')}}">Homepage</a></li>
+                <li><a href="{{route('blog')}}">Blog</a></li>
                 <li><a href="{{route('about')}}">About</a></li>
             </ul>
             <button>{{ Auth::user()->name }}</button>

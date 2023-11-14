@@ -21,14 +21,14 @@
 
       <!-- Éléments de menu centrés à l'extrême droite -->
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Product</a>
+      <li class="nav-item">
+          <a class="nav-link" href="{{ route('dashboard') }}" id="homepageLink">Homepage</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="{{ route('blog') }}" id="blogLink">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="{{ route('about') }}" id="aboutLink">About</a>
         </li>
         <li class="nav-item custom-btn">
           <a class="btn fw-bold" href="{{ route('login') }}" >Log In</a>
@@ -38,6 +38,59 @@
         </li>
       </ul>
     </nav>
+    <!----------------------modals---------------------------->
+    
+<!-- Bootstrap Modal -->
+
+<!-- Bootstrap Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Connectez-vous d'abord !</h5>
+      </div>
+      <div class="modal-body">
+        Veuillez vous connecter d'abord pour accéder à la page.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Custom JavaScript -->
+<script>
+    // Add click event listener to the homepage link
+    document.getElementById('homepageLink').addEventListener('click', function(event) {
+        checkAndShowModal(event);
+    });
+
+    // Add click event listener to the blog link
+    document.getElementById('blogLink').addEventListener('click', function(event) {
+        checkAndShowModal(event);
+    });
+
+    // Add click event listener to the about link
+    document.getElementById('aboutLink').addEventListener('click', function(event) {
+        checkAndShowModal(event);
+    });
+
+    // Function to check if the user is logged in and show the modal
+    function checkAndShowModal(event) {
+        // Assuming you have a variable or function to check if the user is logged in
+        var userIsLoggedIn = false; // Change this based on your logic
+
+        if (!userIsLoggedIn) {
+            // If the user is not logged in, prevent the link action and show the modal
+            event.preventDefault();
+            var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
+            loginModal.show();
+        }
+    }
+</script>
+
+<!----------------------modals---------------------------->
 
     <div class="container p-3">
       <div class="row">
@@ -451,6 +504,22 @@
   <!-- Section: Links  -->
 
 <!-- Footer -->
+
+<script>
+    function checkLogin() {
+        // Assuming you have a variable or function to check if the user is logged in
+        var userIsLoggedIn = false; // Change this based on your logic
+
+        if (!userIsLoggedIn) {
+            // If the user is not logged in, show the Bootstrap alert
+            var alertHtml = '<div class="alert alert-warning alert-dismissible fade show" role="alert">Veuillez vous connecter d\'abord.';
+            alertHtml += '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>';
+            
+            // Add the alert to the body
+            document.body.insertAdjacentHTML('beforeend', alertHtml);
+        }
+    }
+</script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

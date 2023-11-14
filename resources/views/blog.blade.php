@@ -20,8 +20,8 @@
             </div>
           </div>
           <div class="navigation">
-            <div class=""><a class="text-wrapper-2" href="{{route('dashboard')}}">Product</a></div>
-            <div class=""><a class="text-wrapper-2" href="{{route('blog')}}">Service</a></div>
+            <div class=""><a class="text-wrapper-2" href="{{route('dashboard')}}">Homepage</a></div>
+            <div class=""><a class="text-wrapper-2" href="{{route('blog')}}">Blog</a></div>
             <div class=""><a class="text-wrapper-2" href="{{route('about')}}">About</a></div>
             <div class="frame"><div> <strong class="start-now">{{ Auth::user()->name }}</strong> </div></div>
           </div>
