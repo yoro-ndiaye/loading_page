@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\BlogController;
 
 
 /*
@@ -24,6 +25,8 @@ Route::get('/about', function () {
 });
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 
 
 Route::get('/dashboard', function () {

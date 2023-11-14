@@ -22,10 +22,10 @@
           <div class="link">
             <ul>
                 <li><a href="{{route('dashboard')}}">Products</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="{{route('blog')}}">Services</a></li>
+                <li><a href="{{route('about')}}">About</a></li>
             </ul>
-            <button>Log in</button>
+            <button>{{ Auth::user()->name }}</button>
           </div>
             
           <div class="menu-hamburger">

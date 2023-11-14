@@ -23,10 +23,10 @@
       <!-- Éléments de menu centrés à l'extrême droite -->
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Product</a>
+          <a class="nav-link" href="{{route('dashboard')}}">Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="{{route('blog')}}">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{route('about')}}">About</a>

@@ -20,10 +20,10 @@
             </div>
           </div>
           <div class="navigation">
-            <div class="text-wrapper-2">Product</div>
-            <div class="text-wrapper-2">Services</div>
-            <div class="text-wrapper-2">About</div>
-            <div class="frame"><div class="start-now">Log In</div></div>
+            <div class=""><a class="text-wrapper-2" href="{{route('dashboard')}}">Product</a></div>
+            <div class=""><a class="text-wrapper-2" href="{{route('blog')}}">Service</a></div>
+            <div class=""><a class="text-wrapper-2" href="{{route('about')}}">About</a></div>
+            <div class="frame"><div> <strong class="start-now">{{ Auth::user()->name }}</strong> </div></div>
           </div>
         </div>
         <div class="featured-article">
@@ -156,7 +156,7 @@
         </div>
         <div class="divider"></div>
         <div class="text-wrapper-6">Latest news</div>
-        <button class="buttons"><div class="start-now-2">Load more</div></button>
+       
         <div class="footer-CTA">
           <div class="call-to-action">
             <div class="group-wrapper">
