@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AboutController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +22,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/about', [AboutController::class, 'index'])->name('about');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

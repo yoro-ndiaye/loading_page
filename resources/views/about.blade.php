@@ -21,7 +21,7 @@
         <div class="menu">
           <div class="link">
             <ul>
-                <li><a href="">Products</a></li>
+                <li><a href="{{route('dashboard')}}">Products</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">About</a></li>
             </ul>
