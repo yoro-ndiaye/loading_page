@@ -122,6 +122,22 @@ nav .nav-link {
     /* 77.778% */
 }
 
+#img1{
+    animation-name: slide;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(600px);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+}
+
+
 /*--------------style section1 -------------------------------*/
 .section1 {
     margin: 0px;
