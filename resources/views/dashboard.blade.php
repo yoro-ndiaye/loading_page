@@ -75,32 +75,32 @@
     <div class="container d-flex justify-content-center align-items-center mt-4 p-5">
       <div class="row">
         <div class="d-flex justify-content-center align-items-center">
-          <div class="d-flex align-items-center me-3">
+          <div class="d-flex align-items-center me-3" id="img1">
             <img class="img-fluid me-2" src="assets/Logo Shape-white.png" width="20" height="30" alt="">
             <p class="titr1 mb-0">Boldo</p>
           </div>
 
-          <div class="d-flex align-items-center me-3">
+          <div class="d-flex align-items-center me-3" id="img1">
             <img class="img-fluid me-2" src="assets/noun_Pie Chart_4196192 1.png" width="30" height="30" alt="">
             <p class="titr1 mb-0">Presto</p>
           </div>
 
-          <div class="d-flex align-items-center me-3">
+          <div class="d-flex align-items-center me-3" id="img1">
             <img class="img-fluid me-2" src="assets/Logo Shape-white.png" width="20" height="30" alt="">
             <p class="titr1 mb-0">Boldo</p>
           </div>
 
-          <div class="d-flex align-items-center me-3">
+          <div class="d-flex align-items-center me-3" id="img1">
             <img class="img-fluid me-2" src="assets/noun_Pie Chart_4196192 1.png" width="30" height="30" alt="">
             <p class="titr1 mb-0">Presto</p>
           </div>
 
-          <div class="d-flex align-items-center me-3">
+          <div class="d-flex align-items-center me-3" id="img1">
             <img class="img-fluid me-2" src="assets/Logo Shape-white.png" width="20" height="30" alt="">
             <p class="titr1 mb-0">Boldo</p>
           </div>
 
-          <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center" id="img1">
             <img class="img-fluid me-2" src="assets/noun_Pie Chart_4196192 1.png" width="30" height="30" alt="">
             <p class="titr1 mb-0">Presto</p>
           </div>
