@@ -23,7 +23,7 @@
             <div class=""><a class="text-wrapper-2" href="{{route('dashboard')}}">Homepage</a></div>
             <div class=""><a class="text-wrapper-2" href="{{route('blog')}}">Blog</a></div>
             <div class=""><a class="text-wrapper-2" href="{{route('about')}}">About</a></div>
-            <div class="frame"><div> <strong class="start-now">{{ Auth::user()->name }}</strong> </div></div>
+            <div class="frame"><div class="nom"> <strong class="start-now">{{ Auth::user()->name }}</strong> </div></div>
           </div>
         </div>
         <div class="featured-article">
@@ -36,7 +36,7 @@
               </div>
               <p class="p">Pitch termsheet backing validation focus release.</p>
             </div>
-            <div class="frame-4">
+            <div class="frame-4 third">
               <img class="ellipse" src="imgblog/ellipse-10-2.png" />
               <div class="john-doe">Chandler Bing</div>
             </div>
@@ -51,13 +51,13 @@
             <img class="rectangle-3" src="imgblog/rectangle-1270-5.png" />
             <div class="frame-5">
               <div class="frame-3">
-                <div class="frame-4">
+                <div class="frame-4 first">
                   <div class="text-wrapper-3">Category</div>
                   <div class="text-wrapper-4">November 22, 2021</div>
                 </div>
                 <p class="text-wrapper-5">Pitch termsheet backing validation focus release.</p>
               </div>
-              <div class="frame-4">
+              <div class="frame-4 second">
                 <img class="ellipse" src="imgblog/ellipse-10-2.png" />
                 <div class="john-doe">Chandler Bing</div>
               </div>
@@ -67,7 +67,7 @@
             <img class="rectangle-4" src="imgblog/rectangle-1270-4.png" />
             <div class="frame-5">
               <div class="frame-3">
-                <div class="frame-4">
+                <div class="frame-4 first">
                   <div class="text-wrapper-3">Category</div>
                   <div class="text-wrapper-4">November 22, 2021</div>
                 </div>
@@ -75,7 +75,7 @@
                   Seed round direct mailing non-disclosure agreement graphical user interface rockstar.
                 </p>
               </div>
-              <div class="frame-4">
+              <div class="frame-4 second">
                 <img class="ellipse" src="imgblog/ellipse-10.png" />
                 <div class="john-doe">Rachel Green</div>
               </div>
@@ -85,7 +85,7 @@
             <img class="rectangle-4" src="imgblog/rectangle-1270-3.png" />
             <div class="frame-6">
               <div class="frame-3">
-                <div class="frame-4">
+                <div class="frame-4 first">
                   <div class="text-wrapper-3">Category</div>
                   <div class="text-wrapper-4">November 22, 2021</div>
                 </div>
@@ -93,7 +93,7 @@
                   Beta prototype sales iPad gen-z marketing network effects value proposition
                 </p>
               </div>
-              <div class="frame-4">
+              <div class="frame-4 second">
                 <img class="ellipse" src="imgblog/ellipse-10-1.png" />
                 <div class="john-doe">Monica Geller</div>
               </div>
@@ -105,13 +105,13 @@
             <img class="rectangle-4" src="imgblog/rectangle-1270-2.png" />
             <div class="frame-5">
               <div class="frame-3">
-                <div class="frame-4">
+                <div class="frame-4 first">
                   <div class="text-wrapper-3">Category</div>
                   <div class="text-wrapper-4">November 22, 2021</div>
                 </div>
                 <p class="text-wrapper-5">Pitch termsheet backing validation focus release.</p>
               </div>
-              <div class="frame-4">
+              <div class="frame-4 second">
                 <img class="ellipse" src="imgblog/ellipse-10-2.png" />
                 <div class="john-doe">Chandler Bing</div>
               </div>
@@ -121,7 +121,7 @@
             <img class="rectangle-4" src="imgblog/rectangle-1270-1.png" />
             <div class="frame-5">
               <div class="frame-3">
-                <div class="frame-4">
+                <div class="frame-4 first">
                   <div class="text-wrapper-3">Category</div>
                   <div class="text-wrapper-4">November 22, 2021</div>
                 </div>
@@ -129,7 +129,7 @@
                   Seed round direct mailing non-disclosure agreement graphical user interface rockstar.
                 </p>
               </div>
-              <div class="frame-4">
+              <div class="frame-4 second">
                 <img class="ellipse" src="imgblog/ellipse-10.png" />
                 <div class="john-doe">Rachel Green</div>
               </div>
@@ -139,7 +139,7 @@
             <img class="rectangle-4" src="imgblog/rectangle-1270.png" />
             <div class="frame-6">
               <div class="frame-3">
-                <div class="frame-4">
+                <div class="frame-4 first">
                   <div class="text-wrapper-3">Category</div>
                   <div class="text-wrapper-4">November 22, 2021</div>
                 </div>
@@ -147,7 +147,7 @@
                   Beta prototype sales iPad gen-z marketing network effects value proposition
                 </p>
               </div>
-              <div class="frame-4">
+              <div class="frame-4 second">
                 <img class="ellipse" src="imgblog/ellipse-10-1.png" />
                 <div class="john-doe">Monica Geller</div>
               </div>

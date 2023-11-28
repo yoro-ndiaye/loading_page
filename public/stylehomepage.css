@@ -565,8 +565,10 @@ text-align: center;
 border-radius: 240px;
 border: 2px solid #FFF;
 background: #FFF;
-width: 370px;
+width: auto;
 height: 56px;
+padding-left: 20px;
+padding-right: 20px;
 flex-shrink: 0;
 margin-right: 10px;
 color: #000;
@@ -587,11 +589,13 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 28px;
-width: 210px;
+padding-left: 20px;
+padding-right: 20px;
+width: auto;
 height: 60px;
 }
-/*----------------------style du section4----------------*/
-/*----------------------style du section4----------------*/
+/*----------------------style du footer----------------*/
+/*----------------------style du footer----------------*/
 footer{
     margin: 0px;
     padding: 0px;
