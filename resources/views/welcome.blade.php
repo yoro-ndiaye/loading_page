@@ -14,7 +14,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-custom">
       <!-- Logo à gauche -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand ms-4 ps-1" href="#">
         <img src="assets/Logo Shape.png" width="30" height="30" class="d-inline-block align-top" alt="">
         <span>Boldo</span>
       </a>

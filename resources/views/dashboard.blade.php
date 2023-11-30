@@ -13,7 +13,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom ">
       <!-- Logo à gauche -->
       <a class="navbar-brand" href="#">
         <img src="assets/Logo Shape.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -71,7 +71,7 @@
         </div>
       </div>
     </div>
-
+    
     <div class="container d-flex justify-content-center align-items-center mt-4 p-5">
       <div class="row">
         <div class="d-flex justify-content-center align-items-center">
