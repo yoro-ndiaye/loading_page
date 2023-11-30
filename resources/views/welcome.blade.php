@@ -108,8 +108,6 @@
         <div class="col-md-6">
           <div class="image-container">
             <img class="hero-graphics img-fluid" src="assets/hero-graphics.svg" alt="Hero Graphics">
-
-
           </div>
         </div>
       </div>
